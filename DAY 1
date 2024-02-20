@@ -1,0 +1,23 @@
+CPU-only know Addition
+Basics:
+RAM-Primary memory storage
+secondary storage(hardware)->Non-volatile Memory
+Clock->Heart beat of CPU
+RAM-2 Types
+                  S-RAM : FlipFlop(made of) Static
+                  D-RAM: capacitors(made of) Dynamic
+ARM:
+             Cortex  A->Application
+                  Cortex  R->Real time Application
+                  Cortex  M->Microcontroller(Process only)
+
+1.Static RAM is faster than Dynamic Ram
+BUS -> used to communicate between CPU up Computer ( Median)
+Pheripherals :-
+                        GPIO => To communicate environment
+                                   => These are sent by ‘System Bus’ (s bus)
+
+AHB1=>180MHZ(Maximum)
+it is two types
+1. AHB/APB2-> 90MHZ(Maximum)
+2.AHB/APBI-> 45MHZ(Maximum
