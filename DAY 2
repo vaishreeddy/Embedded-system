@@ -1,0 +1,23 @@
+Serial Communication-> 8 bit data  transfer one bit at time 
+parallel Communication -> 8 bit data transfer at the same time
+
+
+  LSB -> Lest significant bit
+  MSB -> Most Significant bit
+
+  serial communication method:
+
+      Synchronous -> data tranismited with clock
+      Asynchronous -> 
+  UART:
+        It's serial Communication
+        It is also Synchronous or AschronousReciver or Tranismited
+        UART is a Full Duplex
+    Duplex:
+        Data can be tranismited and recived
+    Simplex:
+        Data can be tranismited only or recived only
+    Half Duplex:
+        Data can transimited in only one way at a time
+    Full Duplex:
+        Data can both(transimited or recived) way at a time
