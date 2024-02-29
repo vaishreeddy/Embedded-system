@@ -1,0 +1,27 @@
+Introduction of ARM:
+        The ARM microcontroller stands for Advance RISC Machine; 
+it is one of the extensive and most licensed processor cores in the world. 
+The first ARM processor was developed in the year 1978 by Cambridge University, 
+and the first ARM RISC processor was produced by the Acorn Group of Computers in the year 1985.
+
+The ARM Architecture
+
+    Arithmetic Logic Unit
+    Booth multiplier
+    Barrel shifter
+    Control unit
+    Register file
+
+This article covers the below mentioned components.
+
+
+ARM processor family:
+       ARM has designed a number of processors that are grouped into different families according to the core they use. 
+       The families are based on ARM7, ARM9, ARM10 and ARM11 cores. 
+       The postfix numbers 7, 9, 10 and 11 indicate different core designs. 
+       The ascending number equates to increase in performance and sophistication.
+
+ARM Micro Architecture:
+       The ARM architecture contains a programme counter (PC) register and 16 general-purpose registers (R0-R15). 
+       The registers of ARM microcontrollers can operate in a number of different ways: User mode: 
+       In this setting, the CPU runs typical user programmes. Registers R0-R12 are accessible in user mode.
