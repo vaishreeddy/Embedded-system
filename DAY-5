@@ -1,0 +1,33 @@
+PROCESS CREATION
+         1) System ()  - Library Function
+         2) Fork ()  -  System Call
+         3) Wait() -  System Call
+         4) Exec() -   System Call
+         5) waitpid() - System call
+         6) Clone()  - All system call clone function
+         
+FORK1
+/*
+*  A hello world program on fork, note the parent executes first, then the shell and then the child
+*/
+#include <stdio.h>
+#include <unistd.h>
+#include <stdlib.h>
+
+int main()
+{
+   int cpid = fork();
+   if (cpid == 0)
+       printf("Hello I am child\n");
+   else
+       printf("Hello I am parent\n");
+   return 0;
+}                                                                                                                                                                                                                                                                                                                                                                                                                     
+
+         PID of the child process returned the parent and 0 is returned in the child
+         Once the fork has been called child process has been created
+
+      output:
+
+Hello I am parent
+Hello I am child
