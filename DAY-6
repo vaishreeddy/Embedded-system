@@ -1,0 +1,33 @@
+vimfork7.c
+#include <stdio.h>
+#include <unistd.h>
+#include <stdlib.h>
+
+int main(int argc, char *argv[])
+{
+   if(argc!=2){
+      printf("Must enter one agrument (an integer)\n");
+      exit(1);
+   }
+   int n = atoi(argv[1]);
+   int i;
+   for (i=1;i<=n;i++)
+      fork();
+   printf("PHYTEC\n");
+   exit(0);
+}
+if we run the program and compile it give the value ./a.out 5
+then the output PHYTEC  will run 32 times 
+
+
+vim wait.c
+the child process is sleeping for 30 secs
+and open the new tab give ps -ax
+then the child  process is run after 30 seconds it will go to sleep mode
+
+
+vim zombie.c
+open the new tab and give ps -ax
+it will show 2 times ./a.out one is zombie another one is parent
+if we want to kill the process give kill 9 6207 then the process will killed
+kill -l ->To kill the zombie process
